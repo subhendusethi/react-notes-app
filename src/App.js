@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import NotesComponent from '../src/NoteComponent';
-import './App.css';
-
+import NotesContainer from '../src/containers/NoteContainer';
 class App extends Component {
   render() {
-    return (
-      <NotesComponent/>
-    );
+    return (<NotesContainer/>);
   }
 }
 
